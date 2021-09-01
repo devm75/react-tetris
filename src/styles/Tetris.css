@@ -1,19 +1,17 @@
 .Tetris {
-    width: 80%;
-    padding: 5em;
 }
 
 .Row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Cell {
-    border: 1px solid #000;
-    padding: 1.5rem;
+  border: 1px solid #000;
+  padding: 1.5rem;
 }
 
 .CellFill {
-    background-color: #000;
+  background-color: #000;
 }

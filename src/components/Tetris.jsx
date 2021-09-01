@@ -184,7 +184,7 @@ const Tetris = (props) => {
     });
 
     if (gameOver) {
-        return "Game Over";
+        return <div style={{display:'flex',justifyContent:'flex-end',alignItems:'center',width:"55%",height:"100vh", marginTop:"1.2rem",fontSize:"3rem"}}><h1>Game Over !!</h1></div>;
     }
 
     return (
